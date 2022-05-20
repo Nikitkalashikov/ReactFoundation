@@ -26,7 +26,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \*******************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({\n\t\"commentsButton\": \"commentsbutton__commentsButton--M_ZF4\",\n\t\"commentsNumber\": \"commentsbutton__commentsNumber--qywCM\"\n});\n\n\n//# sourceURL=webpack://reactfoundation.v2/./src/shared/CardsList/Card/Controls/CommentsButton/commentsbutton.scss?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({\n\t\"commentsButton\": \"commentsButton--M_ZF4\",\n\t\"commentsNumber\": \"commentsNumber--qywCM\"\n});\n\n\n//# sourceURL=webpack://reactfoundation.v2/./src/shared/CardsList/Card/Controls/CommentsButton/commentsbutton.scss?");
 
 /***/ }),
 
@@ -36,7 +36,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \***************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({\n\t\"karmaCounter\": \"karmacounter__karmaCounter--OsWyu\",\n\t\"karmaValue\": \"karmacounter__karmaValue--fib3Y\",\n\t\"down\": \"karmacounter__down--zRdXD\",\n\t\"up\": \"karmacounter__up--dd67K\"\n});\n\n\n//# sourceURL=webpack://reactfoundation.v2/./src/shared/CardsList/Card/Controls/KarmaCounter/karmacounter.scss?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({\n\t\"karmaValue\": \"karmaValue--fib3Y\",\n\t\"down\": \"down--zRdXD\",\n\t\"karmaCounter\": \"karmaCounter--OsWyu\",\n\t\"up\": \"up--dd67K\"\n});\n\n\n//# sourceURL=webpack://reactfoundation.v2/./src/shared/CardsList/Card/Controls/KarmaCounter/karmacounter.scss?");
 
 /***/ }),
 
@@ -46,7 +46,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \***********************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({\n\t\"saveButton\": \"savebutton__saveButton--uHjIL\"\n});\n\n\n//# sourceURL=webpack://reactfoundation.v2/./src/shared/CardsList/Card/Controls/SaveButton/savebutton.scss?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({\n\t\"saveButton\": \"saveButton--uHjIL\"\n});\n\n\n//# sourceURL=webpack://reactfoundation.v2/./src/shared/CardsList/Card/Controls/SaveButton/savebutton.scss?");
 
 /***/ }),
 
@@ -56,7 +56,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \*************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({\n\t\"shareButton\": \"sharebutton__shareButton--oWOuW\"\n});\n\n\n//# sourceURL=webpack://reactfoundation.v2/./src/shared/CardsList/Card/Controls/ShareButton/sharebutton.scss?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({\n\t\"shareButton\": \"shareButton--oWOuW\"\n});\n\n\n//# sourceURL=webpack://reactfoundation.v2/./src/shared/CardsList/Card/Controls/ShareButton/sharebutton.scss?");
 
 /***/ }),
 
@@ -66,7 +66,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \**********************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({\n\t\"controls\": \"controls__controls--UKykJ\",\n\t\"actions\": \"controls__actions--kLbCo\"\n});\n\n\n//# sourceURL=webpack://reactfoundation.v2/./src/shared/CardsList/Card/Controls/controls.scss?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({\n\t\"controls\": \"controls--UKykJ\",\n\t\"actions\": \"actions--kLbCo\"\n});\n\n\n//# sourceURL=webpack://reactfoundation.v2/./src/shared/CardsList/Card/Controls/controls.scss?");
 
 /***/ }),
 
@@ -76,7 +76,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \**************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({\n\t\"menu\": \"menu__menu--AH691\",\n\t\"menuButton\": \"menu__menuButton--KN_Pn\"\n});\n\n\n//# sourceURL=webpack://reactfoundation.v2/./src/shared/CardsList/Card/Menu/menu.scss?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({\n\t\"menu\": \"menu--AH691\",\n\t\"menuButton\": \"menuButton--KN_Pn\"\n});\n\n\n//# sourceURL=webpack://reactfoundation.v2/./src/shared/CardsList/Card/Menu/menu.scss?");
 
 /***/ }),
 
@@ -86,7 +86,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \********************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({\n\t\"preview\": \"preview__preview--EiVru\",\n\t\"previewImg\": \"preview__previewImg--xT0K5\"\n});\n\n\n//# sourceURL=webpack://reactfoundation.v2/./src/shared/CardsList/Card/Preview/preview.scss?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({\n\t\"preview\": \"preview--EiVru\",\n\t\"previewImg\": \"previewImg--xT0K5\"\n});\n\n\n//# sourceURL=webpack://reactfoundation.v2/./src/shared/CardsList/Card/Preview/preview.scss?");
 
 /***/ }),
 
@@ -96,7 +96,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \**********************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({\n\t\"metaData\": \"metadata__metaData--OEOcv\",\n\t\"publishedLabel\": \"metadata__publishedLabel--U92hZ\",\n\t\"createdAt\": \"metadata__createdAt--XK_IN\"\n});\n\n\n//# sourceURL=webpack://reactfoundation.v2/./src/shared/CardsList/Card/TextContent/MetaData/metadata.scss?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({\n\t\"metaData\": \"metaData--OEOcv\",\n\t\"publishedLabel\": \"publishedLabel--U92hZ\",\n\t\"createdAt\": \"createdAt--XK_IN\"\n});\n\n\n//# sourceURL=webpack://reactfoundation.v2/./src/shared/CardsList/Card/TextContent/MetaData/metadata.scss?");
 
 /***/ }),
 
@@ -106,7 +106,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \****************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({\n\t\"textContent\": \"textcontent__textContent--zb5lP\"\n});\n\n\n//# sourceURL=webpack://reactfoundation.v2/./src/shared/CardsList/Card/TextContent/textcontent.scss?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({\n\t\"textContent\": \"textContent--zb5lP\"\n});\n\n\n//# sourceURL=webpack://reactfoundation.v2/./src/shared/CardsList/Card/TextContent/textcontent.scss?");
 
 /***/ }),
 
@@ -116,7 +116,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \**********************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({\n\t\"userLink\": \"userlink__userLink--Puvn5\",\n\t\"avatar\": \"userlink__avatar--bvRzz\",\n\t\"username\": \"userlink__username--wQEf8\"\n});\n\n\n//# sourceURL=webpack://reactfoundation.v2/./src/shared/CardsList/Card/UserLink/userlink.scss?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({\n\t\"userLink\": \"userLink--Puvn5\",\n\t\"avatar\": \"avatar--bvRzz\",\n\t\"username\": \"username--wQEf8\"\n});\n\n\n//# sourceURL=webpack://reactfoundation.v2/./src/shared/CardsList/Card/UserLink/userlink.scss?");
 
 /***/ }),
 
@@ -126,7 +126,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \*********************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({\n\t\"card\": \"card__card--UF84e\",\n\t\"dropdown\": \"card__dropdown--UFBcb\",\n\t\"closeButton\": \"card__closeButton--m1lRX\"\n});\n\n\n//# sourceURL=webpack://reactfoundation.v2/./src/shared/CardsList/Card/card.scss?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({\n\t\"card\": \"card--UF84e\",\n\t\"dropdown\": \"dropdown--UFBcb\",\n\t\"closeButton\": \"closeButton--m1lRX\"\n});\n\n\n//# sourceURL=webpack://reactfoundation.v2/./src/shared/CardsList/Card/card.scss?");
 
 /***/ }),
 
@@ -146,7 +146,37 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \*****************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({\n\t\"content\": \"content__content--OS2M5\"\n});\n\n\n//# sourceURL=webpack://reactfoundation.v2/./src/shared/Content/content.scss?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({\n\t\"content\": \"content--OS2M5\"\n});\n\n\n//# sourceURL=webpack://reactfoundation.v2/./src/shared/Content/content.scss?");
+
+/***/ }),
+
+/***/ "./src/shared/Dropdown/DropdownControls/DropdownItems/dropdownitems.scss":
+/*!*******************************************************************************!*\
+  !*** ./src/shared/Dropdown/DropdownControls/DropdownItems/dropdownitems.scss ***!
+  \*******************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({\n\t\"dropdown__item\": \"dropdown__item--szeWV\",\n\t\"dropdown__close\": \"dropdown__close--un4gI\"\n});\n\n\n//# sourceURL=webpack://reactfoundation.v2/./src/shared/Dropdown/DropdownControls/DropdownItems/dropdownitems.scss?");
+
+/***/ }),
+
+/***/ "./src/shared/Dropdown/DropdownControls/dropdowncontrols.scss":
+/*!********************************************************************!*\
+  !*** ./src/shared/Dropdown/DropdownControls/dropdowncontrols.scss ***!
+  \********************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({\n\t\"dropdown__list\": \"dropdown__list--HduYq\"\n});\n\n\n//# sourceURL=webpack://reactfoundation.v2/./src/shared/Dropdown/DropdownControls/dropdowncontrols.scss?");
+
+/***/ }),
+
+/***/ "./src/shared/Dropdown/dropdown.scss":
+/*!*******************************************!*\
+  !*** ./src/shared/Dropdown/dropdown.scss ***!
+  \*******************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({\n\t\"dropdown\": \"dropdown--HBOjz\",\n\t\"dropdown__button\": \"dropdown__button--UBIa0\",\n\t\"dropdown__item\": \"dropdown__item--CsUTe\",\n\t\"dropdown__list\": \"dropdown__list--j_IZG\"\n});\n\n\n//# sourceURL=webpack://reactfoundation.v2/./src/shared/Dropdown/dropdown.scss?");
 
 /***/ }),
 
@@ -156,7 +186,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \********************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({\n\t\"searchBlock\": \"searchblock__searchBlock--GxUHh\"\n});\n\n\n//# sourceURL=webpack://reactfoundation.v2/./src/shared/Header/SearchBlock/searchblock.scss?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({\n\t\"searchBlock\": \"searchBlock--GxUHh\"\n});\n\n\n//# sourceURL=webpack://reactfoundation.v2/./src/shared/Header/SearchBlock/searchblock.scss?");
 
 /***/ }),
 
@@ -166,7 +196,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \****************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({\n\t\"sortBlock\": \"sortblock__sortBlock--VEt0R\"\n});\n\n\n//# sourceURL=webpack://reactfoundation.v2/./src/shared/Header/SortBlock/sortblock.scss?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({\n\t\"sortBlock\": \"sortBlock--VEt0R\"\n});\n\n\n//# sourceURL=webpack://reactfoundation.v2/./src/shared/Header/SortBlock/sortblock.scss?");
 
 /***/ }),
 
@@ -176,7 +206,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \********************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({\n\t\"threadTitle\": \"threadtitle__threadTitle--pGi4v\"\n});\n\n\n//# sourceURL=webpack://reactfoundation.v2/./src/shared/Header/ThreadTitle/threadtitle.scss?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({\n\t\"threadTitle\": \"threadTitle--pGi4v\"\n});\n\n\n//# sourceURL=webpack://reactfoundation.v2/./src/shared/Header/ThreadTitle/threadtitle.scss?");
 
 /***/ }),
 
@@ -186,7 +216,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \***************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({\n\t\"header\": \"header__header--fvgfl\"\n});\n\n\n//# sourceURL=webpack://reactfoundation.v2/./src/shared/Header/header.scss?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({\n\t\"header\": \"header--fvgfl\"\n});\n\n\n//# sourceURL=webpack://reactfoundation.v2/./src/shared/Header/header.scss?");
 
 /***/ }),
 
@@ -196,7 +226,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \***************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({\n\t\"layout\": \"layout__layout--WdiF4\"\n});\n\n\n//# sourceURL=webpack://reactfoundation.v2/./src/shared/Layout/layout.scss?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({\n\t\"layout\": \"layout--WdiF4\"\n});\n\n\n//# sourceURL=webpack://reactfoundation.v2/./src/shared/Layout/layout.scss?");
 
 /***/ }),
 
@@ -296,7 +326,7 @@ eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod)
   \*************************************************/
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
-eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nexports.Menu = void 0;\r\nvar react_1 = __importDefault(__webpack_require__(/*! react */ \"react\"));\r\nvar menu_scss_1 = __importDefault(__webpack_require__(/*! ./menu.scss */ \"./src/shared/CardsList/Card/Menu/menu.scss\"));\r\nfunction Menu() {\r\n    return (react_1.default.createElement(\"div\", { className: menu_scss_1.default.menu },\r\n        react_1.default.createElement(\"button\", { className: menu_scss_1.default.menuButton },\r\n            react_1.default.createElement(\"svg\", { width: \"5\", height: \"20\", viewBox: \"0 0 5 20\", fill: \"none\", xmlns: \"http://www.w3.org/2000/svg\" },\r\n                react_1.default.createElement(\"circle\", { cx: \"2.5\", cy: \"2.5\", r: \"2.5\", fill: \"#D9D9D9\" }),\r\n                react_1.default.createElement(\"circle\", { cx: \"2.5\", cy: \"10\", r: \"2.5\", fill: \"#D9D9D9\" }),\r\n                react_1.default.createElement(\"circle\", { cx: \"2.5\", cy: \"17.5\", r: \"2.5\", fill: \"#D9D9D9\" })))));\r\n}\r\nexports.Menu = Menu;\r\n\n\n//# sourceURL=webpack://reactfoundation.v2/./src/shared/CardsList/Card/Menu/Menu.tsx?");
+eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nexports.Menu = void 0;\r\nvar react_1 = __importDefault(__webpack_require__(/*! react */ \"react\"));\r\nvar DropdownControls_1 = __webpack_require__(/*! ../../../Dropdown/DropdownControls/DropdownControls */ \"./src/shared/Dropdown/DropdownControls/DropdownControls.tsx\");\r\nvar DropdownItems_1 = __webpack_require__(/*! ../../../Dropdown/DropdownControls/DropdownItems/DropdownItems */ \"./src/shared/Dropdown/DropdownControls/DropdownItems/DropdownItems.tsx\");\r\nvar menu_scss_1 = __importDefault(__webpack_require__(/*! ./menu.scss */ \"./src/shared/CardsList/Card/Menu/menu.scss\"));\r\nfunction Menu() {\r\n    return (react_1.default.createElement(\"div\", { className: menu_scss_1.default.menu },\r\n        react_1.default.createElement(DropdownControls_1.DropdownControls, { button: react_1.default.createElement(\"button\", { className: menu_scss_1.default.menuButton },\r\n                react_1.default.createElement(\"svg\", { width: \"5\", height: \"20\", viewBox: \"0 0 5 20\", fill: \"none\", xmlns: \"http://www.w3.org/2000/svg\" },\r\n                    react_1.default.createElement(\"circle\", { cx: \"2.5\", cy: \"2.5\", r: \"2.5\", fill: \"#D9D9D9\" }),\r\n                    react_1.default.createElement(\"circle\", { cx: \"2.5\", cy: \"10\", r: \"2.5\", fill: \"#D9D9D9\" }),\r\n                    react_1.default.createElement(\"circle\", { cx: \"2.5\", cy: \"17.5\", r: \"2.5\", fill: \"#D9D9D9\" }))) },\r\n            react_1.default.createElement(DropdownItems_1.DropdownItems, null))));\r\n}\r\nexports.Menu = Menu;\r\n\n\n//# sourceURL=webpack://reactfoundation.v2/./src/shared/CardsList/Card/Menu/Menu.tsx?");
 
 /***/ }),
 
@@ -357,6 +387,36 @@ eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod)
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
 eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nexports.Content = void 0;\r\nvar react_1 = __importDefault(__webpack_require__(/*! react */ \"react\"));\r\nvar content_scss_1 = __importDefault(__webpack_require__(/*! ./content.scss */ \"./src/shared/Content/content.scss\"));\r\nfunction Content(_a) {\r\n    var children = _a.children;\r\n    return (react_1.default.createElement(\"main\", { className: content_scss_1.default.content }, children));\r\n}\r\nexports.Content = Content;\r\n\n\n//# sourceURL=webpack://reactfoundation.v2/./src/shared/Content/Content.tsx?");
+
+/***/ }),
+
+/***/ "./src/shared/Dropdown/Dropdown.tsx":
+/*!******************************************!*\
+  !*** ./src/shared/Dropdown/Dropdown.tsx ***!
+  \******************************************/
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nexports.Dropdown = void 0;\r\nvar react_1 = __importDefault(__webpack_require__(/*! react */ \"react\"));\r\nvar dropdown_scss_1 = __importDefault(__webpack_require__(/*! ./dropdown.scss */ \"./src/shared/Dropdown/dropdown.scss\"));\r\nvar NOOP = function () { };\r\nfunction Dropdown(_a) {\r\n    var button = _a.button, children = _a.children, isOpen = _a.isOpen, _b = _a.onClose, onClose = _b === void 0 ? NOOP : _b, _c = _a.onOpen, onOpen = _c === void 0 ? NOOP : _c, listClass = _a.listClass;\r\n    var _d = react_1.default.useState(isOpen), isDropdownOpen = _d[0], setIsDropdownOpen = _d[1];\r\n    react_1.default.useEffect(function () { return setIsDropdownOpen(isOpen); }, [isOpen]);\r\n    react_1.default.useEffect(function () { return isDropdownOpen ? onOpen() : onClose(); }, [isDropdownOpen]);\r\n    var handlerOpen = function () {\r\n        if (isOpen === undefined) {\r\n            setIsDropdownOpen(!isDropdownOpen);\r\n        }\r\n    };\r\n    return (react_1.default.createElement(\"div\", { className: dropdown_scss_1.default.dropdown },\r\n        react_1.default.createElement(\"div\", { className: dropdown_scss_1.default.dropdown__button, onClick: handlerOpen }, button),\r\n        isDropdownOpen && (react_1.default.createElement(\"div\", { className: dropdown_scss_1.default.dropdown__list + ' ' + listClass, onClick: function () { return setIsDropdownOpen(false); } }, children))));\r\n}\r\nexports.Dropdown = Dropdown;\r\n\n\n//# sourceURL=webpack://reactfoundation.v2/./src/shared/Dropdown/Dropdown.tsx?");
+
+/***/ }),
+
+/***/ "./src/shared/Dropdown/DropdownControls/DropdownControls.tsx":
+/*!*******************************************************************!*\
+  !*** ./src/shared/Dropdown/DropdownControls/DropdownControls.tsx ***!
+  \*******************************************************************/
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nexports.DropdownControls = void 0;\r\nvar react_1 = __importDefault(__webpack_require__(/*! react */ \"react\"));\r\nvar Dropdown_1 = __webpack_require__(/*! ../Dropdown */ \"./src/shared/Dropdown/Dropdown.tsx\");\r\nvar dropdowncontrols_scss_1 = __importDefault(__webpack_require__(/*! ./dropdowncontrols.scss */ \"./src/shared/Dropdown/DropdownControls/dropdowncontrols.scss\"));\r\nfunction DropdownControls(_a) {\r\n    var button = _a.button, children = _a.children;\r\n    return (react_1.default.createElement(Dropdown_1.Dropdown, { button: button, listClass: dropdowncontrols_scss_1.default.dropdown__list }, children));\r\n}\r\nexports.DropdownControls = DropdownControls;\r\n\n\n//# sourceURL=webpack://reactfoundation.v2/./src/shared/Dropdown/DropdownControls/DropdownControls.tsx?");
+
+/***/ }),
+
+/***/ "./src/shared/Dropdown/DropdownControls/DropdownItems/DropdownItems.tsx":
+/*!******************************************************************************!*\
+  !*** ./src/shared/Dropdown/DropdownControls/DropdownItems/DropdownItems.tsx ***!
+  \******************************************************************************/
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nexports.DropdownItems = void 0;\r\nvar react_1 = __importDefault(__webpack_require__(/*! react */ \"react\"));\r\nvar dropdownitems_scss_1 = __importDefault(__webpack_require__(/*! ./dropdownitems.scss */ \"./src/shared/Dropdown/DropdownControls/DropdownItems/dropdownitems.scss\"));\r\nfunction DropdownItems() {\r\n    return (react_1.default.createElement(\"div\", null,\r\n        react_1.default.createElement(\"div\", { className: dropdownitems_scss_1.default.dropdown__item }, \"\\u041A\\u043E\\u043C\\u043C\\u0435\\u043D\\u0442\\u0430\\u0440\\u0438\\u0438\"),\r\n        react_1.default.createElement(\"div\", { className: dropdownitems_scss_1.default.dropdown__item }, \"\\u041F\\u043E\\u0434\\u0435\\u043B\\u0438\\u0442\\u044C\\u0441\\u044F\"),\r\n        react_1.default.createElement(\"div\", { className: dropdownitems_scss_1.default.dropdown__item }, \"\\u0421\\u043A\\u0440\\u044B\\u0442\\u044C\"),\r\n        react_1.default.createElement(\"div\", { className: dropdownitems_scss_1.default.dropdown__item }, \"\\u0421\\u043E\\u0445\\u0440\\u0430\\u043D\\u0438\\u0442\\u044C\"),\r\n        react_1.default.createElement(\"div\", { className: dropdownitems_scss_1.default.dropdown__item }, \"\\u041F\\u043E\\u0436\\u0430\\u043B\\u043E\\u0432\\u0430\\u0442\\u044C\\u0441\\u044F\"),\r\n        react_1.default.createElement(\"div\", { className: dropdownitems_scss_1.default.dropdown__close }, \"\\u0417\\u0430\\u043A\\u0440\\u044B\\u0442\\u044C\")));\r\n}\r\nexports.DropdownItems = DropdownItems;\r\n\n\n//# sourceURL=webpack://reactfoundation.v2/./src/shared/Dropdown/DropdownControls/DropdownItems/DropdownItems.tsx?");
 
 /***/ }),
 

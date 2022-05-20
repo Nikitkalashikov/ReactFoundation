@@ -1,0 +1,29 @@
+.dropdown{
+    position: relative;
+    width: 100%;
+
+    &__button{
+        width: auto;
+    }
+
+    &__item{
+        color: var(--gray99);
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    &__list{
+        position: absolute;
+        top: calc( 100% + 19px);
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+        width: max-content;
+        height: max-content;
+        background-color: var(--white);
+        border-radius: 3px;
+        overflow: hidden;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+        z-index: 10;
+    }
+}

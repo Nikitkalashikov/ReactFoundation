@@ -1,15 +1,16 @@
 .karmaCounter > * + * {
-    padding: 0 0 0 4px;
+    // padding: 0 0 0 4px;
 }
 
 .karmaValue {
+    margin: 0 4px;
     color: var(--grayC4);
     font-size: 12px;
     line-height: 14px;
 }
 
 .down {
-    transform: rotate(180deg);
+    transform: rotate(90deg);
 }
 
 @media all and (min-width: 1024px) {
@@ -19,11 +20,13 @@
       justify-content: center;
       flex-flow: column nowrap;
     }
+    
     .karmaCounter > * + * {
-      padding: 7px 0 0;
+    //   padding: 7px 0 0;
     }
   
     .karmaValue {
+      margin: 4px 0;
       font-size: 14px;
       line-height: 16px;
       color: var(--black);

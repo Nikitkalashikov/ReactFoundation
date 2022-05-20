@@ -1,0 +1,19 @@
+.dropdown{
+
+    &__item{
+        padding: 10px 0;
+        border-top: 1px solid var(--border);
+
+        &:first-child{
+            border-top: 0;
+        }
+    }
+
+    &__close{
+        padding: 10px 15px;
+        margin: 0 -20px;
+        text-align: center;
+        color: var(--gray66);
+        background: var(--grayD9);
+    }
+}
