@@ -1,7 +1,6 @@
 import React from "react";
 import styles from './dropdownitems.scss';
-import { WarningIcon } from "../../../icons/WarningIcon";
-import { BlockIcon } from "../../../icons/BlockIcon";
+import { EIcons, Icon } from "../../../Icon/Icon";
 
 interface IDropdownItems {
     postId: string;
@@ -10,15 +9,24 @@ interface IDropdownItems {
 export function DropdownItems({postId}: IDropdownItems){
     return (
         <div>
-            <div className={styles.dropdown__item}>Комментарии</div>
-            <div className={styles.dropdown__item}>Поделиться</div>
+            <div className={styles.dropdown__item}>
+                <Icon name={EIcons.comments} size={16} />
+                Комментарии
+            </div>
+            <div className={styles.dropdown__item}>
+                <Icon name={EIcons.share} size={16} />
+                Поделиться
+            </div>
             <div className={styles.dropdown__item} onClick={()=>console.log(postId)}>
-                <WarningIcon/>
+                <Icon name={EIcons.block} size={16} />
                 Скрыть
             </div>
-            <div className={styles.dropdown__item}>Сохранить</div>
             <div className={styles.dropdown__item}>
-                <BlockIcon/>
+                <Icon name={EIcons.save} size={16} />
+                Сохранить
+            </div>
+            <div className={styles.dropdown__item}>
+                <Icon name={EIcons.warning} size={16} />
                 Пожаловаться
             </div>
             <div className={styles.dropdown__close}>Закрыть</div>
