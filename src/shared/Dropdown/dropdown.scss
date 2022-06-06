@@ -27,3 +27,13 @@
         z-index: 10;
     }
 }
+
+@media all and (max-width:1024px) {
+    .dropdown{
+        &__list{
+            left: auto;
+            right: 0;
+            transform: translateX(0);
+        }
+    }
+}

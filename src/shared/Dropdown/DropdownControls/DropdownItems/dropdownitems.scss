@@ -7,6 +7,10 @@
         &:first-child{
             border-top: 0;
         }
+
+        svg{
+            margin-right: 4px;
+        }
     }
 
     &__close{
