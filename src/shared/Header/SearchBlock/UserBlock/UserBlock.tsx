@@ -4,16 +4,16 @@ import styles from './userblock.scss';
 import { AnonIcon } from '../../../icons/AnonIcon';
 
 interface IUserBlockProps {
-    avatarScr?: string,
+    avatarSrc?: string,
     username?: string
 }
 
-export function UserBlock({avatarScr, username}: IUserBlockProps){
+export function UserBlock({avatarSrc, username}: IUserBlockProps){
     return (
         <a href="https://www.reddit.com/api/v1/authorize?client_id=UzbE7JhWiHExG_QeoYt-xA&response_type=code&state=random_string&redirect_uri=http://localhost:3000/auth&duration=permanent&scope=read submit identity" className={styles.userBox}>
             <div className={styles.avatarBox}>
-                {avatarScr
-                    ? <img src="{avatarSrc" alt="user avatar" className={styles.avatarImage} />
+                {avatarSrc
+                    ? <img src={avatarSrc} alt="user avatar" className={styles.avatarImage} />
                     : <AnonIcon/>
                 }
             </div>

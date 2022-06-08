@@ -5,18 +5,25 @@ import { Layout } from './shared/Layout/Layout';
 import { Header } from './shared/Header/Header';
 import { Content } from './shared/Content/Content';
 import { CardsList } from './shared/CardsList/CardsList';
-import { Dropdown } from './shared/Dropdown/Dropdown';
-import { EColor, Text } from './shared/Text/Text';
+import { useToken } from './hooks/useToken';
+import { tokenContext } from './shared/context/tokenContext';
+import { UserContextProvider } from './shared/context/userContext';
 
 function AppComponent(){
+    const [token] = useToken();
+
     return (
-        <Layout>
-            <Header />
-            <Content>
-                <CardsList />
-            </Content>
-        </Layout>
+        <tokenContext.Provider value={token}>
+            <UserContextProvider>    
+                <Layout>
+                    <Header />
+                    <Content>
+                        <CardsList />
+                    </Content>
+                </Layout>
+            </UserContextProvider>
+        </tokenContext.Provider>    
     );
 }
 
-export const App = hot(AppComponent);
+export const App = hot( () => <AppComponent/>);

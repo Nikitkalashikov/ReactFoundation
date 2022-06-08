@@ -8,11 +8,19 @@ import { SaveIcon } from "../icons/SaveIcon";
 import classNames from "classnames"; 
 
 export enum EIcons {
-    warning = <WarningIcon/>,
-    block = <BlockIcon/>,
-    comments = <CommentsIcon/>,
-    share = <ShareIcon/>,
-    save = <SaveIcon/>,
+    warning = 'warning',
+    block = 'block',
+    comments = 'comments',
+    share = 'share',
+    save = 'save',
+}
+
+const icons = {
+    warning: <WarningIcon />,
+    block: <BlockIcon />,
+    comments: <CommentsIcon />,
+    share: <ShareIcon />,
+    save: <SaveIcon />,
 }
 
 type TSizes = 12 | 14 | 16 | 18 | 20;
@@ -41,10 +49,12 @@ export function Icon(props: IIcons){
         { [styles[`t${tabletSize}`]]: tabletSize},
         { [styles[`d${descktopSize}`]]: descktopSize},
     );
+
+    const icon = name ? icons[name] : "";
     
     return (
         <svg className={classes}>
-            { name } warning
+            { icon }
         </svg>
     );
 }
