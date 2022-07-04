@@ -26,7 +26,7 @@ const icons = {
 type TSizes = 12 | 14 | 16 | 18 | 20;
 
 interface IIcons {
-    name?: EIcons;
+    name: EIcons;
     size: TSizes;
     mobileSize?: TSizes;
     tabletSize?: TSizes;
@@ -50,7 +50,7 @@ export function Icon(props: IIcons){
         { [styles[`d${descktopSize}`]]: descktopSize},
     );
 
-    const icon = name ? icons[name] : "";
+    const icon = icons[name];
     
     return (
         <svg className={classes}>

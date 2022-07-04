@@ -14,6 +14,6 @@ export function UserContextProvider( {children} : { children: React.ReactNode })
     return (
         <userContext.Provider value={data}>
             {children}
-        </userContext.Provider>    
+        </userContext.Provider>
     );
 }
