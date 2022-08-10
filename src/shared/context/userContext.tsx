@@ -1,7 +1,7 @@
 import React from "react";
 import { useUserData } from "../../hooks/useUserData"; 
 
-interface IUserContextData {
+export interface IUserContextData {
     name?: string;
     iconImg?: string;
 }

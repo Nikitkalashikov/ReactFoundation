@@ -8,6 +8,7 @@ import { CardsList } from './shared/CardsList/CardsList';
 import { useToken } from './hooks/useToken';
 import { tokenContext } from './shared/context/tokenContext';
 import { UserContextProvider } from './shared/context/userContext';
+import { PostsContext } from './shared/context/postsContext';
 
 function AppComponent(){
     const [token] = useToken();
@@ -18,7 +19,9 @@ function AppComponent(){
                 <Layout>
                     <Header />
                     <Content>
-                        <CardsList />
+                        <PostsContext>
+                            <CardsList />
+                        </PostsContext>
                     </Content>
                 </Layout>
             </UserContextProvider>
