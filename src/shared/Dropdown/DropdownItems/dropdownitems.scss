@@ -1,0 +1,24 @@
+.dropdown{
+
+    &__item{
+        padding: 10px 0;
+        color :var(--gray99);
+        border-top: 1px solid var(--border);
+
+        &:first-child{
+            border-top: 0;
+        }
+
+        svg{
+            margin-right: 4px;
+        }
+    }
+
+    &__close{
+        padding: 10px 15px;
+        margin: 0 -20px;
+        text-align: center;
+        color: var(--gray66);
+        background: var(--grayD9);
+    }
+}

@@ -12,7 +12,6 @@ interface ICard {
 }
 
 export function Card( { title, preview, link } : ICard ){
-    
     return (
         <li className={styles.card}>
             <TextContent title={title} link={link} />

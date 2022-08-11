@@ -10,23 +10,26 @@ interface IPostData {
 interface IPost {
     title: string,
     preview: string,
-    link: string
+    link: string,
+    id: string
 }
 
 export function CardsList() : any{
     const postsData = useContext(postsContext);
+    const postList = postsData.map( ({ data } : IPostData ) => {
+        const post : IPost = {
+            title: data.sr_detail.title,
+            preview: data.sr_detail.banner_img,
+            link: data.url,
+            id: data.id
+        };
 
-    console.log(postsData);
+        return <Card key={post.id} title={post.title} preview={post.preview} link={post.link}/>;
+    });
 
     return (
-        postsData.map( ({ data } : IPostData ) => {
-            const post : IPost = {
-                title: data.sr_detail.title,
-                preview: data.sr_detail.banner_img,
-                link: data.url
-            };
-
-            return <ul className={styles.cardsList}><Card title={post.title} preview={post.preview} link={post.link}/></ul>;
-        } )
+        <ul className={styles.cardsList}>
+            { postList }
+        </ul> 
     );
 } 

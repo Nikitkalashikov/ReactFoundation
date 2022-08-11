@@ -11,7 +11,6 @@ export function CommentForm(){
     
     function handleSubmit(event: FormEvent){
         event.preventDefault();
-
     }
 
     return (
