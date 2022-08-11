@@ -1,6 +1,7 @@
-import React from "react";
+import React , {useState} from "react";
 import styles from './textcontent.scss';
 import { MetaData } from "./MetaData/MetaData";
+import { Post } from './../../../Post/Post';
 
 interface ITextContent {
     title: string,
@@ -8,16 +9,23 @@ interface ITextContent {
 }
 
 export function TextContent( {title, link} : ITextContent ){
+    const [isModalOpened, setIsModalOpened] = useState(false);
+
     return (
         <div className={styles.textContent}>
             <MetaData />
             
             <h2 className={styles.title}>
-                <a href={ link } className={styles.postLink}>
+                <button className={styles.postLink} onClick={ () => {return setIsModalOpened(true);}}>
                     { title }
-                    {/* Следует отметить, что новая модель организации доверенности Следующая статья будет куда короче или страннее. */}
-                </a>
+                </button>
             </h2>
+            
+            {isModalOpened && (
+                <Post 
+                    onClose={() => { setIsModalOpened(false); }}
+                />
+            )}
         </div>
     );
 }
