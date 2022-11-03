@@ -1,6 +1,9 @@
 import React from "react";
 import styles from './icon.scss';
+import { UpIcon } from "../icons/UpIcon";
+import { DownIcon } from "../icons/DownIcon";
 import { WarningIcon } from "../icons/WarningIcon";
+import { ReplyIcon } from "../icons/ReplyIcon";
 import { BlockIcon } from "../icons/BlockIcon";
 import { CommentsIcon } from "../icons/CommentsIcon";
 import { ShareIcon } from "../icons/ShareIcon";
@@ -8,6 +11,9 @@ import { SaveIcon } from "../icons/SaveIcon";
 import classNames from "classnames"; 
 
 export enum EIcons {
+    up = 'up',
+    down = 'down',
+    reply = 'reply',
     warning = 'warning',
     block = 'block',
     comments = 'comments',
@@ -16,6 +22,9 @@ export enum EIcons {
 }
 
 const icons = {
+    up: <UpIcon />,
+    down: <DownIcon />,
+    reply: <ReplyIcon />,
     warning: <WarningIcon />,
     block: <BlockIcon />,
     comments: <CommentsIcon />,
@@ -23,7 +32,7 @@ const icons = {
     save: <SaveIcon />,
 }
 
-type TSizes = 12 | 14 | 16 | 18 | 20;
+type TSizes = 12 | 14 | 16 | 18 | 19 | 20;
 
 interface IIcons {
     name: EIcons;

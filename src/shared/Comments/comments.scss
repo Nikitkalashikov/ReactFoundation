@@ -1,0 +1,19 @@
+.comments{
+    margin-top: 35px;
+
+    &__top{
+        margin-bottom: 50px;
+        padding-bottom: 13px;
+        border-bottom: 1px solid var(--grayD9);
+    }
+}
+
+.sorting{
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--gray99); 
+    
+    span{
+        color: var(--orange);
+    }
+}

@@ -1,38 +1,37 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
+import ReactDOM from "react-dom";
+import { DropdownItems } from "./DropdownItems/DropdownItems";
 import styles from './dropdown.scss';
 
 interface IDropdownProps {
-    button: React.ReactNode;
-    children: React.ReactNode;
-    isOpen?: boolean;
-    onOpen?: () => void;
     onClose?: () => void;
-    listClass?: string;
 }
 
-const NOOP = () => {};
+export function Dropdown( props : IDropdownProps){
+    const ref = useRef<HTMLDivElement>(null);
 
-export function Dropdown({ button, children, isOpen, onClose = NOOP, onOpen = NOOP, listClass}: IDropdownProps){
-    const [isDropdownOpen, setIsDropdownOpen] = React.useState(isOpen);  
-    React.useEffect(() => setIsDropdownOpen(isOpen), [isOpen]);
-    React.useEffect(() => isDropdownOpen ? onOpen() : onClose(), [isDropdownOpen]);
-
-    const handlerOpen = () => {
-        if (isOpen === undefined){
-            setIsDropdownOpen(!isDropdownOpen)
+    useEffect(() => {
+        function handleClick(event: MouseEvent){
+            if ( event.target instanceof Node && !ref.current?.contains(event.target)){
+                props.onClose?.();
+            }
         }
-    }
 
-    return (
-        <div className={styles.dropdown}>
-            <div className={styles.dropdown__button} onClick={handlerOpen}>
-                {button}
+        document.addEventListener('click', handleClick);
+
+        return () => {
+            document.removeEventListener('click', handleClick);
+        }
+    }, [])
+
+    const node = document.querySelector('.dropdown_root');
+    if (!node) return null;
+
+    return ReactDOM.createPortal((
+        <div className={styles.dropdown} ref={ref}>
+            <div className={styles.dropdown__list}>
+                <DropdownItems postId="1234"/>
             </div>
-            {isDropdownOpen && (
-                <div className={styles.dropdown__list + ' ' + listClass} onClick={()=>setIsDropdownOpen(false)}>
-                    {children}
-                </div>
-            )}
         </div>
-    );
+    ), node);
 }

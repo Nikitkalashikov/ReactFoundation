@@ -12,8 +12,14 @@ describe('Dropdown', () => {
     //     expect(wrapper.find('div.dropdown').isEmptyRender()).toBeFalsy();
     // })
 
+    // test('should render (snapshot)', () => {
+    //     const wrapper = shallow(<Dropdown children={<div />} button={<button />}/>)
+
+    //     expect(wrapper).toMatchSnapshot()
+    // })
+
     test('should render (snapshot)', () => {
-        const wrapper = shallow(<Dropdown children={<div />} button={<button />}/>)
+        const wrapper = shallow(<Dropdown/>)
 
         expect(wrapper).toMatchSnapshot()
     })

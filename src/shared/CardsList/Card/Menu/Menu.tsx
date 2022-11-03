@@ -1,21 +1,23 @@
-import React from "react";
-import { DropdownControls } from "../../../Dropdown/DropdownControls/DropdownControls";
-import { DropdownItems } from "../../../Dropdown/DropdownControls/DropdownItems/DropdownItems";
+import React, { useState } from "react";
+import { Dropdown } from "../../../Dropdown/Dropdown";
 import { MenuIcon } from "../../../icons/MenuIcon";
 import styles from './menu.scss';
 
 export function Menu(){
+    const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+
     return (
         <div className={styles.menu}>
-            <DropdownControls
-                button = {
-                    <button className={styles.menuButton}>
-                        <MenuIcon/>       
-                    </button>
-                }
-            >
-                <DropdownItems postId="1234"/>
-            </DropdownControls>
+            <button className={styles.menuButton} onClick={ () => { return setIsDropdownOpen(true);}}>
+                <MenuIcon/>       
+            </button>
+            <div className="dropdown_root"></div>           
+
+            {isDropdownOpen && (
+                <Dropdown
+                    onClose={() => { setIsDropdownOpen(false); }}
+                />
+            )}
         </div>
     );
 }

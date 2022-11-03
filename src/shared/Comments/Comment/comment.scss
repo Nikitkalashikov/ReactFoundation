@@ -1,0 +1,66 @@
+.comment{
+    margin-bottom: 46px;
+    position: relative;
+    padding-left: 40px;
+
+    &:last-child{
+        margin-bottom: 0;
+    }
+
+    &__child{
+        margin-top: 34px;
+    }
+    
+    &__side{
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+
+        &_line{
+            position: relative;
+            width: 3px;
+            height: 100%;
+            left: 8px;
+            background-color: var(--grayD9);
+        }
+
+        &_arrow{
+            svg{
+                display: block;
+            }
+        }
+    }
+
+    &__content{
+        margin-top: 10px;
+        font-size: 14px;
+        line-height: 23px;
+    }
+
+    &__bottom{
+        margin-top: 10px;
+    }
+
+    &__menu{
+        display: flex;
+
+        &_item{
+            margin-right: 27px;
+            color: var(--gray99);
+
+            &:last-child{
+                margin-right: 0;
+            }
+        }
+    }
+
+    .metaData{
+        flex-flow: row nowrap;
+        border: 1px solid red!important;
+    }
+
+    form{
+        margin-top: 25px;
+    }
+}

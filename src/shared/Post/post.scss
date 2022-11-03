@@ -1,7 +1,7 @@
 .modal {
     position: fixed;
     left: 50%;
-    top: 10%;
+    top: 5%;
     transform: translateX(-50%);
     z-index: 1000;
     overflow-x: hidden;
@@ -12,12 +12,30 @@
     min-width: 200px;
     min-height: 160px;
     max-width: 80%;
-    padding: 24px;
+    padding: 32px;
     margin-bottom: 25px;
-  }
-  
-  .content {
-    overflow-y: auto;
+
+    &__inner{
+      max-height: 800px;
+      padding-right: 25px;
+      overflow: hidden;
+      overflow-y: scroll;
+    }
+
+    &__title{
+      font-size: 20px;
+      line-height: 30px;
+    }
+
+    &__head{
+      margin-bottom: 20px;
+    }
+
+    &__img{
+      margin: 0 auto;
+      display: block;
+      height: 250px;
+    }
   }
   
   .close {

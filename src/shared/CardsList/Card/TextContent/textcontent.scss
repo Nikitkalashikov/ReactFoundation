@@ -7,15 +7,17 @@
     flex-flow: row wrap;
 
     h2{
+        font-size: 18px;
         line-height: 30px;
     }
 }
 
 .postLink{
-    line-height: 30px;
+    line-height: 34px;
     font-size: 1.5em;
     font-weight: bold;
     transition: .5s ease;
+    text-align: left;
     
     &:hover{
         transition: .5s ease;
